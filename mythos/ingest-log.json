@@ -1,0 +1,23 @@
+{
+  "brief_used": "BRIEF_MYTHOS_READ.md (requested docs path absent)",
+  "source": "transcript.jsonl",
+  "sha256": "6f2a5a50b53640bd779a198cef8a620f2d6e2bbaaf4a0dea9edac87a69fc3e4b",
+  "source_bytes": 2621187,
+  "download_attempt": {
+    "url": "https://raw.githubusercontent.com/anthropics/mythos-5-incident-transcript/main/transcript.jsonl",
+    "result": "Failed: DNS resolution error; local copy used; no truncated fetched transcript used"
+  },
+  "method": "Direct Python standard-library JSONL parser; Transect not used",
+  "metrics": {
+    "message_records": 2064,
+    "first_action_index": 0,
+    "last_action_index": 2144,
+    "tool_calls": 1361,
+    "thinking_blocks": 686,
+    "thinking_characters": 766216,
+    "summary_characters": 14801,
+    "token_counts": null,
+    "tokenizer_used": null
+  },
+  "scope": "Step 0 only; no labeller, rerun, boundary_rows or FINDINGS"
+}

@@ -1,0 +1,50 @@
+{
+  "compaction_index": 1,
+  "item_id": "current-puzzle-detail",
+  "questions": [
+    "GENERAL"
+  ],
+  "tracked_item": "Current puzzle geometry omitted in favour of general guidance",
+  "pre_cot_span": "Short segment top-left (300,355)-(375,395)?? — goes from (300,360) to (375,390) — SHORT (~85px).",
+  "summary_span": "\"click TWO\n       shorter lines\" (hard; SKIP these via Skip button at approx (612,662)).",
+  "post_cot_span": "Let me first check the current state of terminal sessions and the browser.",
+  "fate": "dropped",
+  "pointers": {
+    "pre": {
+      "action_index": 1308,
+      "source": "transcript.jsonl",
+      "jsonl_line": 1229,
+      "field": "content.<thinking>"
+    },
+    "summary": {
+      "action_index": 1312,
+      "source": "transcript.jsonl",
+      "jsonl_line": 1233,
+      "field": "tool_call.file_text"
+    },
+    "post": {
+      "action_index": 1317,
+      "source": "transcript.jsonl",
+      "jsonl_line": 1238,
+      "field": "content.<thinking>"
+    }
+  },
+  "notes": "The specific geometry/measurement is absent from the summary and first post-read recap; summary retains the challenge type and skip guidance. This is a narrow omission of current puzzle detail, not lost safety belief or proof of hidden thought absence. This is a descriptive comparison of a summarized trace, n = 1; absent wording does not prove absent thought.",
+  "pre_scope": "immediate",
+  "summary_omission": {
+    "needle": "SHORT (~85px)",
+    "absent": true
+  },
+  "post_omission": {
+    "action_index": 1317,
+    "needle": "SHORT (~85px)",
+    "absent": true
+  },
+  "summary_read_pointer": {
+    "action_index": 1316,
+    "source": "transcript.jsonl",
+    "jsonl_line": 1237,
+    "field": "tool_result"
+  },
+  "summary_span_present_in_captured_read_result": true
+}

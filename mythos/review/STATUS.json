@@ -1,0 +1,7 @@
+{
+  "report_status": "finalized_at_user_direction",
+  "authorization_basis": "User said proceed again after the agent audit and the pending-review status were delivered; interpreted as authorization to finalize the evidence-supported report.",
+  "human_quote_hand_check": "not_attested",
+  "agent_audit": "completed",
+  "scientific_status": "descriptive single case; evidence limitations retained; no causal claims"
+}
